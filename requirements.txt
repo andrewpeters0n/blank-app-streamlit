@@ -1,1 +1,10 @@
-streamlit
+runtime: python
+env: flex
+
+runtime_config:
+    operating_system: "ubuntu22"
+    runtime_version: "3.12"
+
+service: streamlit-app-streamlitapp
+
+instance_class: B2

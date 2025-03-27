@@ -2,6 +2,7 @@
 
 import streamlit as st
 
+st.title("My Streamlit Snowflake App")
 conn = st.connection("snowflake")
 df = conn.query("SELECT * FROM mytable;", ttl="10m")
 
